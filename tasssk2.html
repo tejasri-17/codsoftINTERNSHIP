@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Board</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #004080;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main Content */
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 20px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #003366;
+      margin-bottom: 10px;
+    }
+
+    .job-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .job-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+
+    .job-card h3 {
+      margin: 0;
+      color: #003366;
+    }
+
+    .job-card p {
+      margin: 5px 0;
+    }
+
+    .apply-btn {
+      background-color: #003366;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .apply-btn:hover {
+      background-color: #004080;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #003366;
+      color: white;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEk-51ZGUcCEiEBNaht_vogXGh_wAjZwaOdVJUQucZuL8mBvHdwBBzdfn1CQ1Ht8Tvwso&usqp=CAU" alt="Job Board Banner">
+    <h1>Welcome to the Job Board</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#job-listings">Job Listings</a>
+    <a href="#employer-dashboard">Employer Dashboard</a>
+    <a href="#candidate-dashboard">Candidate Dashboard</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Home Section -->
+    <section id="home">
+      <h2>Welcome Message</h2>
+      <p>Find your dream job or the perfect candidate. Explore opportunities and connect with the best talent.</p>
+    </section>
+
+    <!-- Job Listings Section -->
+    <section id="job-listings">
+      <h2>Job Listings</h2>
+
+      <!-- Job Card -->
+      <div class="job-card">
+        <img src="https://www.designmantic.com/blog/wp-content/uploads/2020/10/Computer-Software-Logos.jpg" alt="Company Logo">
+        <div>
+          <h3>Frontend Developer</h3>
+          <p><strong>Company:</strong> Tech Innovators</p>
+          <p><strong>Location:</strong> Remote</p>
+          <p><strong>Description:</strong> Build modern user interfaces using React and TypeScript.</p>
+          <button class="apply-btn">Apply Now</button>
+        </div>
+      </div>
+
+      <!-- Job Card -->
+      <div class="job-card">
+        <img src="https://fabrikbrands.com/wp-content/uploads/Technology-Company-Logos-1-1155x770.png" alt="Company Logo">
+        <div>
+          <h3>Backend Developer</h3>
+          <p><strong>Company:</strong> Code Builders</p>
+          <p><strong>Location:</strong> San Francisco, CA</p>
+          <p><strong>Description:</strong> Develop and optimize server-side applications with Node.js.</p>
+          <button class="apply-btn">Apply Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Employer Dashboard Section -->
+    <section id="employer-dashboard">
+      <h2>Employer Dashboard</h2>
+      <p>Post job openings and manage applications from talented job seekers.</p>
+    </section>
+
+    <!-- Candidate Dashboard Section -->
+    <section id="candidate-dashboard">
+      <h2>Candidate Dashboard</h2>
+      <p>Manage your profile, upload resumes, and track your applications.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Designed by [TEJASRI]. © 2025 Job Board</p>
+  </footer>
+
+</body>
+</html>
